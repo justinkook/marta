@@ -662,6 +662,12 @@ footer {
    Mobile styles
    ========================================================================== */
 /* Landscape phones and down */
+@media only screen and (max-width: 400px) {
+    .navies {
+        max-width: 100%;
+        text-align: center;
+    }
+}
 @media (max-width: 480px) {
 
 .btn-lg {
