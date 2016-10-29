@@ -471,7 +471,10 @@ footer {
 
 
 /*---------------Pricing Tables-------------------*/
-
+.commute {
+  margin-left: 0px;
+  margin-right: 0px;
+}
 
 #pricing {
   background: #0082CD;
@@ -630,7 +633,14 @@ footer {
     opacity: 1;
 }
 
+.commutes {
+  background-color: #F5F5F5;
+  color: #000000;
+}
 
+.already {
+  font-size: 88%;
+}
 
 
 /* ==========================================================================
