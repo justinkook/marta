@@ -127,7 +127,7 @@ a:hover, a:focus {
 }
 
 .btn-primary {
-  background-color:#70cbce;
+  background-color:#0E9FD8;
   color: #ffffff;
 }
 
@@ -234,7 +234,7 @@ a:hover, a:focus {
 
 .navbar {
     border: 0px solid rgba(0, 0, 0, 0);
-    background: #70cbce;
+    background: #0E9FD8;
     margin: auto;
     min-height: 60px;
     padding-top: 8px;
@@ -415,7 +415,7 @@ hr.line {
     left: 0;
     right: 0;
     width: 100%;
-    max-width: 440px;
+    max-width: 900px;
 }
 
 
