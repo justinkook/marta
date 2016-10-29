@@ -101,6 +101,12 @@ a:hover, a:focus {
   border-radius: 4px;
   border: none;
   background: #0082CD;
+  color: #ffffff;
+}
+
+.btn:hover {
+  background: #05A2FF;
+  color: #ffffff;
 }
 
 .btn-lg {
