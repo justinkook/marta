@@ -346,8 +346,7 @@
                     <div class="panel-footer">
                         <div class="row">
                             <div class="col-md-6 col-md-offset-3">
-                                <button type="button" class="btn btn-success btn-sm btn-block">
-                                    <span class="fa fa-send"></span>Submit</button>
+                              <a href="#invite" class="btn btn-success btn-sm btn-block scroll submit">Submit</a>
                             </div>
                         </div>
                     </div>
@@ -363,18 +362,38 @@
       <div class="container">
         <div class="row">
           <div class="col-sm-8 col-sm-offset-2 text-center">
-            <h2 class="black">Shipping Info</h2>
+            <h2 class="black">Shipping Details</h2>
             <br />
-            <p class="black">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam viverra orci ut.</p>
+            <p class="black">Enter shipping information to receive your free Breeze card with 2 free  rides.</p>
             <br />
 
             <div class="row">
               <div class="col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
                 <form role="form">
                   <div class="form-group">
-                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter Email">
+                    <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Street Adress">
                   </div>
-                  <button type="submit" class="btn btn-primary btn-lg">Place Order</button>
+
+                  <div class="row">
+                    <div class="row commute">
+                      <div class="col-xs-12 col-sm-5 col-md-5">
+                        <div class="form-group">
+                          <input type="text" name="pickup" id="pickup" class="form-control input-sm" placeholder="City">
+                        </div>
+                      </div>
+                      <div class="col-xs-12 col-sm-3 col-md-3">
+                        <div class="form-group">
+                          <input type="text" name="destination" id="destination" class="form-control input-sm" placeholder="State">
+                        </div>
+                      </div>
+                      <div class="col-xs-12 col-sm-4 col-md-4">
+                        <div class="form-group">
+                          <input type="text" name="destination" id="destination" class="form-control input-sm" placeholder="Zip">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <a href="#press" class="btn btn-primary btn-lg scroll submit">Place Order</a>
                 </form>
               </div>
             </div><!--End Form row-->

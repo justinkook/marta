@@ -642,6 +642,17 @@ footer {
   font-size: 88%;
 }
 
+.submit {
+  background: #2DBF64;
+}
+
+.submit:hover {
+  background: #4ECE7E;
+}
+
+.submit:active .submit::after {
+  background: #4ECE7E;
+}
 
 /* ==========================================================================
    Mobile styles
