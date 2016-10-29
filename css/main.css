@@ -390,18 +390,18 @@ hr.line {
 }
 
 .purple {
-	border-color: #6d3f96;
-	color: #6d3f96;
+	border-color: #EE9422;
+	color: #EE9422;
 }
 
 .blue {
-	border-color: #70cbce;
-	color: #70cbce
+	border-color: #F1C21A;
+	color: #F1C21A;
 }
 
 .yellow {
-	border-color: #fdc05d;
-	color: #fdc05d;
+	border-color: #0D9ED7;
+	color: #0D9ED7;
 }
 
 .iphone {
@@ -464,7 +464,7 @@ footer {
 
 
 #pricing {
-  background: #70cbce;
+  background: #0E9FD8;
 }
 
 .pricing-container {
